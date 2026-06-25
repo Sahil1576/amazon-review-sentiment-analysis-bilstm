@@ -1,5 +1,13 @@
 # 🛒 Amazon Review Sentiment Analysis using Bi-LSTM
 
+## 🌐 Live Demo
+
+🚀 **Try the Web App Here:**
+
+https://amazon-review-sentiment-analysis-bilstm-qjhh22k6jvs7rdx7jsji3h.streamlit.app/
+
+## Description
+
 A Deep Learning based NLP project that classifies Amazon product reviews into **Positive**, **Negative**, and **Neutral** sentiments using a Bidirectional LSTM (Bi-LSTM) model.
 
 The project includes data preprocessing, exploratory data analysis (EDA), text tokenization, sequence padding, model training, evaluation, and deployment using Streamlit.
