@@ -112,12 +112,12 @@ Due to GitHub file size limitations, the trained model and full dataset are host
 ### 📁 Dataset
 Download the dataset here:
 
-[https://drive.google.com/your-dataset-link](https://drive.google.com/file/d/16Eb5pRfSTpaB4CKe5D6un-Me__EmCbGh/view?usp=drive_link)
+https://drive.google.com/file/d/1U0yTWsyLHIGudQruQ4_CRqasTm3I0XRy/view?usp=drive_link
 
 ### 🤖 Trained Model
 Download the trained Bi-LSTM model here:
 
-[https://drive.google.com/your-model-link](https://drive.google.com/file/d/1U0yTWsyLHIGudQruQ4_CRqasTm3I0XRy/view?usp=drive_link)
+https://drive.google.com/file/d/16Eb5pRfSTpaB4CKe5D6un-Me__EmCbGh/view?usp=drive_link
 
 After downloading, place the files inside the project folder.
 
