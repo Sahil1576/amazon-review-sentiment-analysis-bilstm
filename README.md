@@ -167,7 +167,7 @@ The Streamlit application allows users to:
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/amazon-review-sentiment-analysis-bilstm.git
+https://github.com/Sahil1576/amazon-review-sentiment-analysis-bilstm
 ```
 
 Move into the project directory
