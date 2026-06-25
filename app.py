@@ -3,6 +3,8 @@ import pickle
 import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
+import os
+import gdown
 
 # -----------------------------
 # Page Configuration
@@ -17,8 +19,16 @@ st.set_page_config(
 # Load Model & Tokenizer
 # -----------------------------
 @st.cache_resource
+MODEL_PATH = "amazon_reviews_prediction_model.keras"
+
+if not os.path.exists(MODEL_PATH):
+    gdown.download(
+        "https://drive.google.com/uc?id=16Eb5pRfSTpaB4CKe5D6un-Me__EmCbGh",
+        MODEL_PATH,
+        quiet=False
+    )
 def load_files():
-    model = load_model("amazon_reviews_prediction_model.keras")
+    model = load_model(MODEL_PATH)
 
     with open("tokenizer.pkl", "rb") as file:
         tokenizer = pickle.load(file)
