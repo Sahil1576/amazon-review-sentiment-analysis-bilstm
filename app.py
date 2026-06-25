@@ -18,7 +18,6 @@ st.set_page_config(
 # -----------------------------
 # Load Model & Tokenizer
 # -----------------------------
-@st.cache_resource
 MODEL_PATH = "amazon_reviews_prediction_model.keras"
 
 if not os.path.exists(MODEL_PATH):
@@ -27,6 +26,7 @@ if not os.path.exists(MODEL_PATH):
         MODEL_PATH,
         quiet=False
     )
+@st.cache_resource
 def load_files():
     model = load_model(MODEL_PATH)
 
