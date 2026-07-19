@@ -23,7 +23,7 @@ MODEL_PATH = "amazon_reviews_prediction_model.keras"
 if not os.path.exists(MODEL_PATH):
     gdown.download(
         id="18YV1qAGkbqSD4XAdA2iWTcsANz7Qq8st",
-        MODEL_PATH,
+        output=MODEL_PATH,
         quiet=False
     )
 @st.cache_resource
