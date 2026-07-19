@@ -22,7 +22,7 @@ MODEL_PATH = "amazon_reviews_prediction_model.keras"
 
 if not os.path.exists(MODEL_PATH):
     gdown.download(
-        "https://drive.google.com/file/d/1zm69Q8_OMebrDonjPmdKv6AUuumuyuwO/view?usp=sharing",
+        "https://drive.google.com/file/d/18YV1qAGkbqSD4XAdA2iWTcsANz7Qq8st/view?usp=drive_link",
         MODEL_PATH,
         quiet=False
     )
